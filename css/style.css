@@ -1,0 +1,56 @@
+/* カレンダーのCSS */
+
+.container {
+  width: 70%;
+  margin: auto;
+  /* text-align: center; */
+}
+
+table {
+  margin: auto;
+  padding: 2em;
+}
+
+#registerd_explain {
+  margin: auto;
+}
+
+#registerd_color {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin: auto;
+}
+
+/* 掲示板のcss */
+
+#question_and_profile {
+  display: flex;
+}
+
+#an_answer_container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* 質問のCSS */
+
+#form {
+  margin: 1em 0;
+}
+
+#textarea {
+  width: 70%;
+  height: 10em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* 新規登録のCSS */
+.input {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.2em;
+}
